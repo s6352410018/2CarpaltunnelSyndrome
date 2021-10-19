@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Score {
+            font-weight: bold;
+        }
+
+        input:focus {
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto; margin-top: 20px; ">
+        <tr>
+            <td style="text-align: center; padding-top: 10px;">การประเมินความพร้อมของผู้ป่วย/หรือผู้ดูแลก่อนจำหน่าย โรค
+                ....Carpal tunnel syndrome.........D-method-ORT..F๐๒</td>
+        </tr>
+    </table>
+    <table class="Main_01"
+        style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto; font-size: 13px; ">
+        <tr>
+            <td style="width: 150px; text-align: center; border-left: solid 2px; border-top: solid 2px;">
+                ความรู้
+            </td>
+            <td
+                style="width: 600px; text-align: center; border-left: solid 2px; border-top: solid 2px; border-right: solid 2px;">
+                รายการประเมินความรู้ในการดูแลสุขภาพ
+            </td>
+            <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                ทราบ
+            </td>
+            <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                ไม่ทราบ
+            </td>
+            <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                รวม
+            </td>
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 2px; border-right: solid 2px;">
+                ของผู้ป่วยหรือผู้ดูแล
+            </td>
+            <td
+                style=" width: 600px; text-align: center; font-size: 11px; border-bottom: solid 1px; border-right: solid 2px;">
+                (ข้อหลัก ๗ ข้อข้อละ ๕ คะแนน รวม ๓๕ คะแนน คะแนนข้อย่อยให้ใช้ ๕ คะแนนหาร)
+            </td>
+            <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 2px;">
+                (คะแนน)
+            </td>
+            <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 2px;">
+                (0คะแนน)
+            </td>
+            <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 2px;">
+
+            </td>
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 2px;">
+                Diagnosis
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 2px;">
+                ๑.ความรู้เรื่องโรค Carpal tunnel syndrome สาเหตุ อาการและแนวทางการรักษา
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 2px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 2px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 2px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                การวินิจฉัยโรค, แผนการรักษา
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.ภาวะแทรกซ้อนและอันตรายจากโรค Carpal tunnel syndrome
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; font-size: 11px;">
+
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๓.การผ่าตัด CT Release
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Medicine
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.ความรู้เรื่องการรับประทานยาอย่างต่อเนื่อง เช่น ยาฆ่าเชื้อ ยาบรรเทาปวด
+                ผลข้างเคียงของยา
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; font-size: 11px; border-left: solid 1px; ">
+                *คำแนะนำที่ได้รับที่<br>รพ.หรือกลับบ้าน
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.การใช้ยาโรคร่วมที่ได้รับจากโรงพยาบาล เช่น ยา ASA
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Environment
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.จัดสิ่งแวดล้อมให้สะอาดเป็นระเบียบ แสงสว่างเพียงพอ พื้นแห้ง ห้องน้ำมีราวจับ ป้องกันอุบัติเหตุ (
+                ปรับที่วัค)
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *เรื่องการจัดสิ่งแวดล้อม<br>ให้เหมาะสมกับผู้ป่วย
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.วางอุปกรณ์ของใช้ใกล้มือให้สะควกในการหยิบใช้
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *การจัดการปัญหาเศรษฐกิจ
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๓.แนะนำสิทธิการรักษา
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Treatment
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.การรับประทานยาตามแผนการรักษา
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *วิธีการและเป้าหมาย<br>ของการรักษาโรค
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.การสังเกตุอาการผิดปกติ เช่น แผลติดเชื้อ (ปวม แคง ร้อน มีไข้)
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *อาการแทรกซ้อน
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Health
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.การคูแลสุขภาพทั่วไปเมื่อเป็น Carpal tunnel syndrome ( hygine care )
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *คำแนะนำ ข้อจำกัดของผู้ป่วย การดูแลตนเอง
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.ความรู้/การปฏิบัติตัวหลังการผ่าตัด (ไม่ให้แผลเปียกน้ำ)
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *การออกกำลังกาย
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๓.การออกกำลังกายบริหารกล้ามเนื้อมือ
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๔.การปฏิบัติกิจวัตรประจำวันอย่างถูกวิธี หลีกเลี่ยงการใช้ข้อมือเป็นเวลานานๆ
+                เช่น การถือของหนัก
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Out patient Referral
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.อาการผิดปกติที่ควรมาพบแพทย์ก่อนนัค/มาตามนัด/เลื่อนนัด
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *คำแนะนำอาการฉุกเฉินที่ต้องติดตามผล
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.โรงพยาบาล/สถานีอนามัยใกส้วัคเมื่อมีภาวะฉุกเฉิน
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *การให้การคูแลต่อเนื่อง
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: center; border-left: solid 1px; border-top: solid 1px;">
+                Diet
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; border-top: solid 1px;">
+                ๑.อาหารที่เหมาะสมกับโรค Carpal tunnel syndrome ที่ไม่มีภาวะแทรกซ้อนเป็นอาหารหลัก ๕ หมู่เน้น โปรตีน
+            </td>
+            <td
+                style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+
+        </tr>
+        <tr>
+            <td style=" width: 150px; text-align: left; border-left: solid 1px; font-size: 11px;">
+                *คำแนะนำเรื่องอาหาร
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-left: solid 1px; border-right: solid 1px; ">
+                ๒.อาหารที่เหมาะสมกับโรค Carpal tunnel syndrome ที่มีโรดอื่นๆร่วม
+            </td>
+            <td style=" width: 50px; text-align: center; padding-right: 0px; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+            <td style=" width: 50px; text-align: center; border-right: solid 1px; ">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <!--  -->
+        <tr>
+            <td style=" width: 150px; text-align: left; font-size: 11px; border-top: solid 1px;">
+
+            </td>
+            <td
+                style=" width: 600px; text-align: left; font-size: 12px; border-right: solid 1px; border-top: solid 1px;">
+
+            </td>
+            <td colspan="2"
+                style=" width: 50px; text-align: center; padding-right: 0px;  border-top: solid 1px; border-bottom: solid 1px;">
+                รวม(เต็ม ๓๕ คะแนน)
+            </td>
+
+            <td
+                style=" width: 50px; text-align: center; border-right: solid 2px; border-top: solid 2px; border-bottom: solid 2px; border-left: solid 1px;">
+                <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+            </td>
+
+        </tr>
+        <!--  -->
+        <table style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto; margin-top: 10px; ">
+            <tr>
+                <td style="text-align: left; padding-top: 0px; font-size: 14px;">
+                    การประเมินความสามารถของผู้ป่วยหรือผู้ดูแลก่อนจำหน่าย
+                    ประเมินโดยการสังเกตขณะอยู่โรงพยาบาลหรือให้ปฏิบัติให้ดูก่อนกลับ</td>
+            </tr>
+        </table>
+        <table class="Main_02"
+            style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto; font-size: 13px; ">
+            <tr>
+                <td
+                    style="width: 750px; text-align: center; border-left: solid 2px; border-top: solid 2px; border-right: solid 2px; vertical-align: text-top;">
+                    รายการประเมินความรู้ในการดูแลสุขภาพ
+                </td>
+                <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                    ปฏิบัติถูกต้อง
+                </td>
+                <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                    ปฏิบัติไม่ถูกต้อง
+                </td>
+                <td style="width: 50px; text-align: center; border-top: solid 2px; border-right: solid 2px;">
+                    รวม
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: center; border-bottom: solid 2px; border-right: solid 2px; border-left: solid 2px;">
+
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 2px; border-right: solid 2px;">
+                    (๑คะแนน)
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 2px; border-right: solid 2px;">
+                    (๐คะแนน)
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 2px; border-right: solid 2px; ">
+
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; ">
+                    ๑.การปฏิบัตรกิจวัตรประจำวันที่ถูกต้อง
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; ">
+                    ๒.การออกกำลังกายบริหารกล้ามเนื้อมือ
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; ">
+                    ๓.การรับประทานยาบรรเทาปวด/ยาโรคร่วม
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; ">
+                    ๔.การเลือกรับประทานอาหารที่เหมาะสมกับโรค
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; ">
+                    ๕.การสังเกตอาการผิดปกติ/การมาตรวจตามนัด
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="checkbox" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+                <td style=" width: 50px; text-align: center; border-bottom: solid 1px; border-right: solid 1px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td style=" width: 750px; text-align: left; ">
+                    ลงชื่อพยาบาล
+                    <input type="text" name="" id=""
+                        style="border: none; width: 100px; text-align: left; border-bottom: dotted 1px; width: 270px;">
+                    วันที่ประเมิน
+                    <input type="text" name="" id=""
+                        style="border: none; width: 100px; text-align: left; border-bottom: dotted 1px; width: 270px;">
+                </td>
+                <td colspan="2" style=" width: 50px; text-align: center; ">
+                    รวม(เต็ม ๕ คะแนน)
+                </td>
+                <td style=" width: 50px; text-align: center; border: double 2px;">
+                    <input type="number" name="" id="" style="border: none; width: 50px; text-align: center; ">
+                </td>
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-bottom: solid 1px; border-right: solid 1px; border-left: solid 1px; border-top: solid 1px;">
+                    กรณีช่วยเหลือตัวเองไม่ได้ โปรคระบุชื่อผู้ดูแล
+                    <input type="text" name="" id=""
+                        style="border: none; width: 100px; text-align: left; border-bottom: dotted 1px; width: 450px;">
+                </td>
+                <td colspan="3" style=" width: 50px; text-align: center; ">
+                    ความสัมพันธ์
+                    <input type="text" name="" id=""
+                        style="border: none; width: 100px; text-align: left; border-bottom: dotted 1px; width: 100px;">
+                </td>
+
+            </tr>
+            <tr>
+                <td
+                    style=" width: 750px; text-align: left; border-right: solid 1px; border-top: solid 1px; border-left: solid 1px; border-bottom: solid 1px; vertical-align: text-top;">
+                    สติ๊กเกอร์ชื่อผู้ป่วย <br>
+                    <input type="file" name="patient_sticker" id="" accept="image/*">
+                </td>
+                <td colspan="3"
+                    style="padding: 0px; width: 100px; text-align: left; border-top: solid 1px; border-bottom: solid 1px; border-right: solid 1px;">
+                    วินิจฉัยโรค..... <br>Carpal tunnel syndrome......... <br>หอผู้ป่วยศัลยกรรมทั่วไปและศัลยกรรมกระดูก
+                </td>
+            </tr>
+            <table class="Main_End"
+                style=" border: solid 0px; width: 900px; border-collapse: collapse; margin: auto; font-size: 13px; ">
+                <tr>
+                    <td>
+                        <div style="text-align: center; font-weight: bold;">
+                            ร่างการประเมินความพร้อมของผู้ป่วย/หรือผู้ดูแลก่อนจำหน่าย (แก้ไขครั้งที่ ๑/๖ พ.ย.๕๗)</div>
+                    </td>
+                </tr>
+
+            </table>
+        </table>
